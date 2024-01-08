@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexStart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flexBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+html,
+body,
+#app,
+#app > div {
+    height: 100%;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+input {
+    outline: none;
+}
